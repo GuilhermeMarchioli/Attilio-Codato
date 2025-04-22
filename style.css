@@ -22,11 +22,9 @@ body, html {
 
 body {
     overflow-x: hidden;
-}
-
-html {
     scroll-behavior: smooth;
 }
+
 
 header {
     display: flex;
@@ -79,7 +77,6 @@ header menu a:hover {
 }
 
 /* Main */
-
 main {
     padding: 10px;
     background-color: var(--cor-2);
@@ -120,4 +117,15 @@ section p {
 section aside img {
     width: 300px;
     padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor-1);
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+margin: 10px;
 }
